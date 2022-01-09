@@ -5,10 +5,8 @@ const fs = require('then-fs');
 const client = new Discord.Client();
 const app = express();
 
-require('dotenv').config();
-
-const token = process.env.token;
-const prefix = process.env.prefix;
+const token = "TOKEN";
+const prefix = "PREFIX";
 
 client.embedMaker = function embedMaker(author, title, description) {
     let embed = new Discord.MessageEmbed();
