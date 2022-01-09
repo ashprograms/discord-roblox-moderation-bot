@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
 const ms = require('ms');
-
-require('dotenv').config();
-
-const allowedRanks = process.env.allowedRanks.split(",");
+const allowedRanks = "toxicwaste";
 const unbanCoolDowns = new Set();
 
 /**
