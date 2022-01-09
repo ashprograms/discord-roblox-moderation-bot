@@ -1,8 +1,5 @@
 const Discord = require('discord.js');
 const ms = require('ms');
-
-require('dotenv').config();
-
 const embedColor = process.env.embedColor;
 
 /**
