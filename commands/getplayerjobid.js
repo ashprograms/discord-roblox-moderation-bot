@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 
-require('dotenv').config();
-
-const allowedRanks = process.env.allowedRanks.split(",");
+const allowedRanks = "toxicwaste";
 
 /**
 * @param {Discord.Message} message
